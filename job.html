@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Job Form</title>
+    <style>
+        body{
+            background-image:url('https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+        }
+        .container{ 
+            position: absolute; 
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:450px;
+            height:80vh;
+            box-sizing: border-box;
+            background:rgba(0,0,0,0.5);    
+        }
+
+        label{
+            color: white;
+            font-family:serif;
+
+        }
+
+        input{
+            color: white;
+            font-family:serif;
+            margin-left: 50px;
+
+        }
+        select{
+            font-family:serif;
+            margin-left: 50px;
+
+        }
+
+        h2{
+            color:white;
+            font-family:serif;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2 class="title">Classy Job Application Form</h2>
+    <div>
+    <label for="name" style="font-size: large; margin-left: 50px;">Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name" style="color:black;width:50%;box-sizing: border-box;border-radius: 4px;display: inline-block;height: 30px;">
+    </div>
+    <br>
+    <div>
+    <label for="email" style="font-size: large; margin-left: 50px;" >E-mail:</label><br>
+    <input type="email" id="email" placeholder="Enter Your Email" style="color:black";>
+    </div>
+    <br>
+    <div>
+    <label for="mobile" style="font-size: large; margin-left: 50px;">Mobile Number:</label><br>
+    <input type="number" name="" id="mobile" style="color:black";>
+    </div>
+    <br>
+    <div>
+    <label for="gender" style="font-size: large; margin-left: 50px;">Please select gender:</label><br>
+    <input type="radio" id="genderradio" value="Male"><label>Male</label>
+    <input type="radio" id="genderradio" value="Female"><label>Female</label>
+    </div>
+    <br>
+    <div>
+    <label for="place" style="font-size: large; margin-left: 50px;">Place:</label><br>
+    <select id="place" name="place">
+    <option >Select Place</option>
+    <option >Coimbatore</option>
+    <option >chennai</option>
+    <option >Tanjore</option>
+    <option >Trichy</option>
+    </select>
+    </div>
+    <br>
+    <div>
+    <label for="job" style="font-size: large; margin-left: 50px;">What position Are you Applying For?</label><br>
+    <select id="job" name="job">
+    <option >Select Position</option>
+    <option >Developer</option>
+    <option >Testing</option>
+    <option >Business development</option>
+    <option >HR</option>
+    </select>
+    </div>
+    <br>
+    <div>
+    <label for="gender" style="font-size: large; margin-left: 50px;">What is your current Employment Status?</label><br>
+    <input type="radio" id="genderradio" value="Male"><label>Employed</label>
+    <input type="radio" id="genderradio" value="Female"><label>Unemployed</label><br>
+    <input type="radio" id="genderradio" value="Male"><label>Self-Employed</label>
+    <input type="radio" id="genderradio" value="Female"><label>Student</label>
+    </div>
+    <br>
+    <div>
+        <label for="file" style="font-size: large; margin-left: 50px;">Upload Resume</label><br>
+        <input type="file" name="">
+    </div>
+    <br>
+    <button style="margin-left: 200px;">Submit</button>
+</div>
+</body>
+</html>

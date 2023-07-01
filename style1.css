@@ -1,0 +1,86 @@
+li{
+    font-size: 20px;
+}
+
+dd{
+    font-size: 20px; 
+}
+
+dt{
+    font-size: 20px; 
+}
+td{
+    font-size: 20px; 
+}
+.main h1{
+    font-size: 40px;
+    color:rgb(175, 84, 114);
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img{
+    border-bottom-left-radius: 50px 20px;
+}
+
+.contact h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.education h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.skill h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.interest h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.interest dt{
+    color:rgb(92, 65, 65);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.project h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.project dt{
+    color:rgb(92, 65, 65);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.certificate h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.table h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.other h1{
+    font-size: 20px;
+    color:rgb(175, 84, 114);
+    font-family:Arial, Helvetica, sans-serif;
+}
